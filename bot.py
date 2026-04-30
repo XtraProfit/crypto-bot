@@ -6,8 +6,9 @@ from datetime import datetime, timezone
 # ============================================================
 #   CONFIGURACIÓN — edita solo estas 2 líneas
 # ============================================================
-BOT_TOKEN = "8753633633:AAHkz8nlLV1cGu70K0b_piUJbjb_A5_GY2s"        # obtenlo de @BotFather
-CHANNEL_ID = "@InvestmentM_Updates"      # ej: @MiCanalCrypto
+import os
+BOT_TOKEN = os.environ.get("8753633633:AAGNb9KtyJNkAiaDV1rKownR0K1POEPggnA")
+CHANNEL_ID = "@InvestmentM_Updates"
 # ============================================================
 
 TOP_SYMBOLS = [
